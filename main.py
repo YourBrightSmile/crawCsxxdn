@@ -6,7 +6,10 @@ from bs4 import BeautifulSoup
 headers = {
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5'
 }
-
+```
+fileContent:
+https://blog.csdn.net/junbaozi/article/details/130180xxx 第六章xxxxx
+```
 
 def downloadFromFile(filePath):
     with open(filePath, 'r+', encoding='utf-8') as f:
